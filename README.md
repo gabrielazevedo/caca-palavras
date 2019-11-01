@@ -1,2 +1,2 @@
 # caca-palavras
-Caça palavras feito em css e js
+Jogo de caça-palavras feito com css e js
