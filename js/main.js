@@ -37,11 +37,11 @@
 
 	var lines = [];
 
-	letters.map(function(index){
+	letters.map(function(item, index){
 		lines[index] = document.querySelector('[data-js="line'+ index +'"]');
 	});
 
-	letters.forEach(function(index){
+	letters.forEach(function(item, index){
 		letters[index].forEach(function(item){
 			lines[index].insertAdjacentHTML('beforeend', '<td>' + item + '</td>');
 		});
