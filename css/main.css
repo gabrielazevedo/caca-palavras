@@ -1,0 +1,157 @@
+* { margin: 0; padding: 0; }
+
+body{
+	background: #FFCD69;
+}
+
+#header{
+    width: 490px;
+    margin: 42px auto;
+}
+
+#header img{
+	float: left;
+	padding-top: 5px;
+}
+
+#header h1{
+	color: #E25C5C;
+    font-family: 'RobotoSlab';
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -1px;
+    padding-left: 35px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#search{
+	height: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#search input{
+	width: 389px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #417505;
+    color: #E25C5C;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#search button{
+    background: linear-gradient(180deg, #76AD0C 0%, #417505 100%);
+    border-radius: 5px;
+    width: 88px;
+    height: 50px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-family: 'RobotoSlab';
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+#table{
+	width: 493px;
+	height: 493px;
+	margin: auto;
+	border: 3px solid #E25C5C;
+	border-radius: 10px;
+	border-spacing: 0;
+}
+
+#table td{
+	border-bottom: 3px solid #E25C5C;
+	border-right: 3px solid #E25C5C;
+	width: 46px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 36px;
+	font-size: 36px;
+	letter-spacing: 2.9px;
+}
+
+.color{
+	background-color: #F5A623;
+	transition: background 0.5s ease-out;
+}
+
+#table tr:nth-child(10) td{
+	border-bottom: none;
+}
+
+#table td:last-child{
+	border-right: none
+}
+
+@media only screen and (max-width: 479px) {
+	#header{
+		width: 350px;
+		margin: 20px auto;
+    	display: inline-block;
+	}
+	
+	#header img{
+		width: 58px;
+	    height: 58px;
+	    padding-left: 38px;
+	}
+
+	#header h1{
+		font-size: 30px;
+	    padding-left: 20px;
+	    padding-top: 13px;
+	}
+
+	#search{
+		margin-bottom: 20px;
+	}
+
+	#search input{
+		width: 233px;
+		height: 40px;
+	}
+
+	#search button{
+		width: 85px;
+		height: 40px;
+    	margin-left: 5px;
+	}
+
+	#table{
+		width: 330px;
+		height: 330px;
+	}
+
+	#table td{
+		width: 33px;
+		font-size: 20px;
+	}
+}
+
+@font-face {
+	    font-family: 'Roboto';
+	    src: url('fonts/RobotoMono-Regular.ttf') format('truetype');
+	         
+	    font-weight: normal;
+	    font-style: normal; }
+
+@font-face {
+	    font-family: 'RobotoSlab';
+	    src: url('fonts/RobotoSlab-Regular.ttf') format('truetype');
+	         
+	    font-weight: normal;
+	    font-style: normal; }
